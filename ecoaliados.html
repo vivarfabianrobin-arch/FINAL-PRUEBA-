@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eco Aliados | Red de Socios Sostenibles</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="eco-spinner"></div>
+      <p>Cargando experiencia sostenible...</p>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <img src="img/logo-ecodelibery.png" alt="Eco Delivery Logo" class="logo-img">
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="futurosostenible.html"><i class="fas fa-leaf"></i> Futuro Sostenible</a></li>
+          <li><a href="ecoempresa.html"><i class="fas fa-building"></i> Eco Empresa</a></li>
+          <li><a href="ecoriders.html"><i class="fas fa-bicycle"></i> Eco Riders</a></li>
+          <li><a href="ecoaliados.html"><i class="fas fa-handshake"></i> Eco Aliados</a></li>
+          <li><a href="index.html#contacto"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+        </ul>
+      </nav>
+      <a href="ecoriders.html" class="btn btn-primary header-btn">Únete Ahora</a>
+    </div>
+  </header>
+
+  <!-- HERO ALIADOS -->
+  <section class="page-hero aliados-hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title animate-text">Nuestros <span>Eco Aliados</span></h1>
+      <p class="hero-subtitle animate-text-delay">Unidos por un futuro más verde y sostenible</p>
+      <a href="#aliados" class="btn btn-primary hero-btn">Conoce a Nuestros Socios</a>
+    </div>
+  </section>
+
+  <!-- INTRODUCCIÓN ALIADOS -->
+  <section class="aliados-intro container">
+    <div class="intro-content scroll-reveal">
+      <h2 class="section-title">Juntos Construimos el Futuro</h2>
+      <p class="intro-text">
+        En Eco Delivery creemos que el cambio verdadero sucede cuando unimos fuerzas. Nuestros Eco Aliados son empresas, 
+        restaurantes y comercios que comparten nuestra visión de un Colombia más sostenible. Juntos formamos una red 
+        comprometida con el medio ambiente, la innovación y la responsabilidad social.
+      </p>
+    </div>
+
+    <div class="stats-aliados">
+      <div class="stat-aliado scroll-reveal">
+        <div class="stat-number" data-target="150">0</div>
+        <p>Aliados Activos</p>
+      </div>
+      <div class="stat-aliado scroll-reveal">
+        <div class="stat-number" data-target="50000">0</div>
+        <p>Entregas Ecológicas</p>
+      </div>
+      <div class="stat-aliado scroll-reveal">
+        <div class="stat-number" data-target="85">0</div>
+        <p>Toneladas de CO2 Evitadas</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS DE ALIADOS -->
+  <section class="aliados-categories container" id="aliados">
+    <h2 class="section-title scroll-reveal">Categorías de Aliados</h2>
+    <p class="section-subtitle scroll-reveal">Diversos sectores unidos por la sostenibilidad</p>
+
+    <div class="categories-filter scroll-reveal">
+      <button class="filter-btn active" data-category="todos">
+        <i class="fas fa-globe"></i> Todos
+      </button>
+      <button class="filter-btn" data-category="restaurantes">
+        <i class="fas fa-utensils"></i> Restaurantes
+      </button>
+      <button class="filter-btn" data-category="tiendas">
+        <i class="fas fa-store"></i> Tiendas
+      </button>
+      <button class="filter-btn" data-category="farmacias">
+        <i class="fas fa-pills"></i> Farmacias
+      </button>
+      <button class="filter-btn" data-category="tecnologia">
+        <i class="fas fa-laptop"></i> Tecnología
+      </button>
+    </div>
+
+    <div class="aliados-grid" id="aliadosGrid">
+      <!-- Se carga dinámicamente desde aliados.js -->
+    </div>
+  </section>
+
+  <!-- BENEFICIOS DE SER ALIADO -->
+  <section class="beneficios-aliado">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">Beneficios de Ser un Eco Aliado</h2>
+      
+      <div class="beneficios-grid">
+        <div class="beneficio-item scroll-reveal">
+          <div class="beneficio-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Aumenta tus Ventas</h3>
+          <p>Accede a miles de usuarios comprometidos con el consumo sostenible y aumenta tu visibilidad.</p>
+        </div>
+
+        <div class="beneficio-item scroll-reveal">
+          <div class="beneficio-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3>Certifica tu Compromiso Verde</h3>
+          <p>Recibe certificación oficial de empresa sostenible y destaca en el mercado.</p>
+        </div>
+
+        <div class="beneficio-item scroll-reveal">
+          <div class="beneficio-icon">
+            <i class="fas fa-shipping-fast"></i>
+          </div>
+          <h3>Logística sin Complicaciones</h3>
+          <p>Nos encargamos de todas tus entregas con eficiencia y responsabilidad ambiental.</p>
+        </div>
+
+        <div class="beneficio-item scroll-reveal">
+          <div class="beneficio-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Tecnología a tu Favor</h3>
+          <p>Dashboard exclusivo para gestionar pedidos, rutas y análisis en tiempo real.</p>
+        </div>
+
+        <div class="beneficio-item scroll-reveal">
+          <div class="beneficio-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Comunidad Activa</h3>
+          <p>Forma parte de una red de negocios comprometidos con el futuro del planeta.</p>
+        </div>
+
+        <div class="beneficio-item scroll-reveal">
+          <div class="beneficio-icon">
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <h3>Tarifas Preferenciales</h3>
+          <p>Disfruta de precios especiales y promociones exclusivas para aliados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS DE ALIADOS -->
+  <section class="testimonios-section container">
+    <h2 class="section-title scroll-reveal">Lo que Dicen Nuestros Aliados</h2>
+
+    <div class="testimonios-slider">
+      <div class="testimonio-card scroll-reveal">
+        <div class="testimonio-header">
+          <img src="https://i.pravatar.cc/80?img=5" alt="Avatar" class="testimonio-avatar">
+          <div class="testimonio-info">
+            <h4>María González</h4>
+            <p>Restaurante Verde Vida</p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="testimonio-text">
+          "Desde que nos aliamos con Eco Delivery, nuestras ventas aumentaron un 40%. Los clientes valoran nuestro 
+          compromiso ambiental y el servicio es impecable."
+        </p>
+      </div>
+
+      <div class="testimonio-card scroll-reveal">
+        <div class="testimonio-header">
+          <img src="https://i.pravatar.cc/80?img=12" alt="Avatar" class="testimonio-avatar">
+          <div class="testimonio-info">
+            <h4>Carlos Ramírez</h4>
+            <p>Farmacia Natural Plus</p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="testimonio-text">
+          "La mejor decisión para nuestro negocio. Entregas rápidas, seguras y alineadas con nuestros valores de 
+          sostenibilidad. ¡Altamente recomendado!"
+        </p>
+      </div>
+
+      <div class="testimonio-card scroll-reveal">
+        <div class="testimonio-header">
+          <img src="https://i.pravatar.cc/80?img=32" alt="Avatar" class="testimonio-avatar">
+          <div class="testimonio-info">
+            <h4>Laura Mendoza</h4>
+            <p>Tienda Eco Store</p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <p class="testimonio-text">
+          "Excelente servicio y atención. El dashboard es muy intuitivo y nos permite gestionar todo desde un solo lugar. 
+          Eco Delivery es sinónimo de confianza."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO PARA SER ALIADO -->
+  <section class="form-aliado-section">
+    <div class="container">
+      <h2 class="section-title scroll-reveal">¿Quieres Ser un Eco Aliado?</h2>
+      <p class="section-subtitle scroll-reveal">Completa el formulario y nos pondremos en contacto contigo</p>
+
+      <form id="aliadoForm" class="aliado-form scroll-reveal">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="aliado-negocio"><i class="fas fa-store"></i> Nombre del Negocio</label>
+            <input type="text" id="aliado-negocio" name="negocio" required>
+            <small class="form-error"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="aliado-categoria"><i class="fas fa-tags"></i> Categoría</label>
+            <select id="aliado-categoria" name="categoria" required>
+              <option value="">Selecciona una categoría</option>
+              <option value="restaurante">Restaurante</option>
+              <option value="tienda">Tienda/Retail</option>
+              <option value="farmacia">Farmacia</option>
+              <option value="tecnologia">Tecnología</option>
+              <option value="otros">Otros</option>
+            </select>
+            <small class="form-error"></small>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="aliado-nombre"><i class="fas fa-user"></i> Nombre de Contacto</label>
+            <input type="text" id="aliado-nombre" name="nombre" required>
+            <small class="form-error"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="aliado-telefono"><i class="fas fa-phone"></i> Teléfono</label>
+            <input type="tel" id="aliado-telefono" name="telefono" required>
+            <small class="form-error"></small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="aliado-email"><i class="fas fa-envelope"></i> Email</label>
+          <input type="email" id="aliado-email" name="email" required>
+          <small class="form-error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="aliado-direccion"><i class="fas fa-map-marker-alt"></i> Dirección del Negocio</label>
+          <input type="text" id="aliado-direccion" name="direccion" required>
+          <small class="form-error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="aliado-mensaje"><i class="fas fa-comment"></i> Cuéntanos sobre tu negocio</label>
+          <textarea id="aliado-mensaje" name="mensaje" rows="5" required></textarea>
+          <small class="form-error"></small>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn">
+          <i class="fas fa-paper-plane"></i> Enviar Solicitud
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- MODAL LIGHTBOX PARA GALERÍA -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <div class="lightbox-content">
+      <img src="" alt="Imagen ampliada" id="lightboxImg">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- BOTÓN SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top" title="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- NOTIFICACIÓN -->
+  <div id="notification" class="notification"></div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-section footer-main">
+        <img src="img/logo-ecodelibery.png" alt="Eco Delivery Logo" class="footer-logo">
+        <h4>Eco Delivery</h4>
+        <p>La revolución en entregas sostenibles. Transformamos cada envío en una oportunidad para cuidar el planeta.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Menú</h4>
+        <ul>
+          <li><a href="futurosostenible.html">Futuro sostenible</a></li>
+          <li><a href="ecoempresa.html">Eco empresa</a></li>
+          <li><a href="ecoriders.html">Eco riders</a></li>
+          <li><a href="ecoaliados.html">Eco aliados</a></li>
+          <li><a href="index.html#contacto">Contáctanos</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contáctanos</h4>
+        <div class="contact-info">
+          <p><strong><i class="fab fa-whatsapp"></i> WhatsApp:</strong></p>
+          <p><a href="https://wa.me/51903558150" class="contact-link" target="_blank">+51 903 558 150</a></p>
+          <p><strong><i class="fas fa-envelope"></i> Correo:</strong></p>
+          <p><a href="mailto:ecocolombiadelivery@gmail.com" class="contact-link">ecocolombiadelivery@gmail.com</a></p>
+        </div>
+      </div>
+      
+      <div class="footer-section footer-social">
+        <h4>Síguenos</h4>
+        <p>Únete a nuestra comunidad verde</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/ecodelivery.bo" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/ecodelivery.bo/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/51903558150" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 EcoDelivery. Todos los derechos reservados. | Diseñado con 💚 para un futuro sostenible</p>
+    </div>
+  </footer>
+
+  <!-- Scripts - ORDEN IMPORTANTE -->
+  <script src="jquery-effects.js"></script>
+  <script src="aliados.js"></script>
+</body>
+</html>

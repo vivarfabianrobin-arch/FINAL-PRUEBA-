@@ -1,0 +1,36 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "María González",
+      "role": "Restaurante Verde Vida",
+      "avatar": "img/aliados/avatar1.jpg",
+      "rating": 5,
+      "text": "Desde que nos aliamos con Eco Delivery, nuestras ventas aumentaron un 40%. Los clientes valoran nuestro compromiso ambiental y el servicio es impecable."
+    },
+    {
+      "id": 2,
+      "name": "Carlos Ramírez",
+      "role": "Farmacia Natural Plus",
+      "avatar": "img/aliados/avatar2.jpg",
+      "rating": 5,
+      "text": "La mejor decisión para nuestro negocio. Entregas rápidas, seguras y alineadas con nuestros valores de sostenibilidad. ¡Altamente recomendado!"
+    },
+    {
+      "id": 3,
+      "name": "Laura Mendoza",
+      "role": "Tienda Eco Store",
+      "avatar": "img/aliados/avatar3.jpg",
+      "rating": 4.5,
+      "text": "Excelente servicio y atención. El dashboard es muy intuitivo y nos permite gestionar todo desde un solo lugar. Eco Delivery es sinónimo de confianza."
+    },
+    {
+      "id": 4,
+      "name": "Andrés Pérez",
+      "role": "Café Eco Aroma",
+      "avatar": "img/aliados/avatar4.jpg",
+      "rating": 5,
+      "text": "Compartimos la misma visión de un futuro sostenible. Eco Delivery no solo entrega productos, entrega valores y compromiso con el planeta."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "site": {
+    "name": "EcoDelivery Colombia",
+    "tagline": "La revolución en entregas sostenibles",
+    "version": "2.0",
+    "contact": {
+      "email": "ecocolombiadelivery@gmail.com",
+      "phone": "+51 903 558 150",
+      "whatsapp": "51903558150"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/ecodelivery.bo",
+      "instagram": "https://www.instagram.com/ecodelivery.bo/",
+      "twitter": "#",
+      "linkedin": "#"
+    },
+    "api": {
+      "endpoint": "https://api.ecodelivery.com/v1",
+      "timeout": 5000
+    }
+  },
+  "features": {
+    "enableNotifications": true,
+    "enableAnimations": true,
+    "enableAnalytics": false,
+    "lazyLoadImages": true
+  },
+  "theme": {
+    "primaryColor": "#2e7d32",
+    "secondaryColor": "#81c784",
+    "accentColor": "#a5d6a7"
+  }
+}

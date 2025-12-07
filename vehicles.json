@@ -1,0 +1,44 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Patineta Eléctrica",
+      "description": "Perfecta para distancias cortas",
+      "image": "img/scooter-el.png",
+      "features": "Cero emisiones, 100% eléctrica. Ideal para entregas rápidas en la ciudad.",
+      "range": "Hasta 25 km por carga",
+      "capacity": "Paquetes de hasta 5 kg",
+      "category": "urbano"
+    },
+    {
+      "id": 2,
+      "name": "Bicicleta Eléctrica",
+      "description": "Ideal para ciudad sostenible",
+      "image": "img/bicicleta-el.png",
+      "features": "Autonomía extendida, sistema de asistencia inteligente.",
+      "range": "Hasta 50 km por carga",
+      "capacity": "Paquetes de hasta 15 kg",
+      "category": "urbano"
+    },
+    {
+      "id": 3,
+      "name": "Moto Eléctrica",
+      "description": "Mayor capacidad de carga",
+      "image": "img/moto-el.png",
+      "features": "Entregas rápidas y silenciosas. Perfecta para paquetes medianos.",
+      "range": "Hasta 80 km por carga",
+      "capacity": "Paquetes de hasta 30 kg",
+      "category": "intermedio"
+    },
+    {
+      "id": 4,
+      "name": "Camión Eléctrico",
+      "description": "Envíos grandes sostenibles",
+      "image": "img/camion-el.png",
+      "features": "Tecnología de punta en logística verde. Para envíos grandes y pesados.",
+      "range": "Hasta 200 km por carga",
+      "capacity": "Carga de hasta 1000 kg",
+      "category": "pesado"
+    }
+  ]
+}

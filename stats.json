@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "co2_reduction": {
+      "value": 70,
+      "unit": "%",
+      "description": "Reducción de Emisiones de CO2",
+      "icon": "fa-cloud"
+    },
+    "renewable_energy": {
+      "value": 27.1,
+      "unit": "%",
+      "description": "Consumo de Energía Renovable",
+      "icon": "fa-solar-panel"
+    },
+    "air_pollution": {
+      "value": 30,
+      "unit": "%",
+      "description": "Reducción de Contaminación del Aire",
+      "icon": "fa-wind"
+    },
+    "sustainability": {
+      "value": 90,
+      "unit": "%",
+      "description": "Aumento de la Sostenibilidad Corporativa",
+      "icon": "fa-chart-line"
+    }
+  },
+  "impact": {
+    "active_allies": 150,
+    "eco_deliveries": 50000,
+    "co2_avoided_tons": 85,
+    "electric_vehicles": 200,
+    "cities_covered": 12
+  }
+}

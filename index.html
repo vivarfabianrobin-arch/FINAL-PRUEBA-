@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>Eco Delivery | Entregas sostenibles en Colombia</title>
+  <meta name="description" content="Eco Delivery es la primera app sostenible de entregas ecológicas en Colombia. Ofrecemos entregas rápidas y responsables con vehículos eléctricos.">
+  <meta name="keywords" content="eco delivery, sostenible, ecológico, colombia, vehículos eléctricos, app de reparto, medio ambiente, envíos verdes">
+  <meta name="author" content="Equipo Eco Delivery">
+
+  <!-- Fuentes y estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="eco-spinner"></div>
+      <p>Cargando experiencia sostenible...</p>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <img src="img/logo-ecodelibery.png" alt="Eco Delivery Logo" class="logo-img">
+      </a>
+      
+      <!-- Menú hamburguesa -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="futurosostenible.html"><i class="fas fa-leaf"></i> Futuro Sostenible</a></li>
+          <li><a href="ecoempresa.html"><i class="fas fa-building"></i> Eco Empresa</a></li>
+          <li><a href="ecoriders.html"><i class="fas fa-bicycle"></i> Eco Riders</a></li>
+          <li><a href="ecoaliados.html"><i class="fas fa-handshake"></i> Eco Aliados</a></li>
+          <li><a href="#contacto"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+        </ul>
+      </nav>
+      <a href="ecoriders.html" class="btn btn-primary header-btn">Únete Ahora</a>
+    </div>
+  </header>
+
+  <!-- BANNER ANIMADO CON JQUERY -->
+  <section class="banner-slider">
+    <div class="banner-container">
+      <div class="banner-slide active">
+        <img src="img/banner/ban1.png" alt="Banner Eco Delivery 1">
+        <div class="banner-overlay">
+          <div class="banner-text">
+            <h2 class="animate-text">Entregas 100% Ecológicas</h2>
+            <p class="animate-text-delay">Cuidamos el planeta con cada envío</p>
+          </div>
+        </div>
+      </div>
+      <div class="banner-slide">
+        <img src="img/banner/ban2.png" alt="Banner Eco Delivery 2">
+        <div class="banner-overlay">
+          <div class="banner-text">
+            <h2 class="animate-text">Vehículos Eléctricos</h2>
+            <p class="animate-text-delay">Tecnología verde para tu ciudad</p>
+          </div>
+        </div>
+      </div>
+      <div class="banner-slide">
+        <img src="img/banner/ban3.png" alt="Banner Eco Delivery 3">
+        <div class="banner-overlay">
+          <div class="banner-text">
+            <h2 class="animate-text">Únete a la Revolución Verde</h2>
+            <p class="animate-text-delay">Sé parte del cambio sostenible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="banner-btn banner-prev" aria-label="Anterior">&#10094;</button>
+    <button class="banner-btn banner-next" aria-label="Siguiente">&#10095;</button>
+    <div class="banner-dots">
+      <span class="dot active" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+    </div>
+    
+    <!-- Indicador de scroll -->
+    <div class="scroll-indicator">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </section>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2 class="hero-title scroll-reveal">1° App Sostenible de delivery en <span>COLOMBIA</span></h2>
+      <p class="hero-subtitle scroll-reveal">Entregas rápidas, ecológicas y responsables con el planeta.</p>
+      <a href="ecoriders.html" class="btn btn-primary hero-btn scroll-reveal">Sé un Eco Rider</a>
+    </div>
+  </section>
+
+  <!-- ESTADÍSTICAS CON ANIMACIÓN -->
+  <section class="stats container">
+    <div class="stat-card scroll-reveal" data-target="70">
+      <div class="stat-icon"><i class="fas fa-cloud"></i></div>
+      <h3 class="counter">0%</h3>
+      <p>Reducción de Emisiones de CO2</p>
+    </div>
+    <div class="stat-card scroll-reveal" data-target="27">
+      <div class="stat-icon"><i class="fas fa-solar-panel"></i></div>
+      <h3 class="counter">0%</h3>
+      <p>Consumo de Energía Renovable</p>
+    </div>
+    <div class="stat-card scroll-reveal" data-target="30">
+      <div class="stat-icon"><i class="fas fa-wind"></i></div>
+      <h3 class="counter">0%</h3>
+      <p>Reducción de Contaminación del Aire</p>
+    </div>
+    <div class="stat-card scroll-reveal" data-target="90">
+      <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+      <h3 class="counter">0%</h3>
+      <p>Aumento de la Sostenibilidad Corporativa</p>
+    </div>
+  </section>
+
+  <!-- VEHÍCULOS -->
+  <section class="vehicles container">
+    <h3 class="section-title scroll-reveal">Vehículos Eco-Friendly</h3>
+    <p class="section-subtitle scroll-reveal">Flota 100% eléctrica para un futuro sostenible</p>
+    <div class="vehicles-grid" id="vehiclesGrid">
+      <!-- Se carga dinámicamente desde vehicles.json -->
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="benefits container">
+    <h3 class="section-title scroll-reveal">Nuestros Beneficios</h3>
+    <div class="benefits-grid">
+      <div class="benefit-card scroll-reveal">
+        <div class="benefit-icon">
+          <img src="img/icon/personas-gr.png" alt="Usuarios">
+        </div>
+        <h4>Para Todos</h4>
+        <p>Soluciones para empresas y personas</p>
+      </div>
+      <div class="benefit-card scroll-reveal">
+        <div class="benefit-icon">
+          <img src="img/icon/chat-gr.png" alt="Reloj">
+        </div>
+        <h4>Entregas Flexibles</h4>
+        <p>Entregas el mismo día o programadas</p>
+      </div>
+      <div class="benefit-card scroll-reveal">
+        <div class="benefit-icon">
+          <img src="img/icon/mano-gr.png" alt="Dinero">
+        </div>
+        <h4>Tarifas Justas</h4>
+        <p>Tarifas competitivas y transparentes</p>
+      </div>
+      <div class="benefit-card scroll-reveal">
+        <div class="benefit-icon">
+          <img src="img/icon/RRR-gr.png" alt="Hoja">
+        </div>
+        <h4>100% Ecológico</h4>
+        <p>Opciones verdes para cada envío</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO ECO CON ACORDEÓN MEJORADO -->
+  <section class="eco-info-section container">
+    <h3 class="section-title scroll-reveal">Información Ecológica</h3>
+    <p class="section-subtitle scroll-reveal">Conoce el impacto positivo de las entregas sostenibles</p>
+    
+    <div class="eco-accordion">
+      <div class="eco-accordion-item scroll-reveal">
+        <div class="eco-accordion-header">
+          <div class="eco-header-content">
+            <span class="eco-number">01</span>
+            <h4>Respira Mejor: Menos Gases, Más Aire Limpio</h4>
+          </div>
+          <span class="eco-accordion-icon">+</span>
+        </div>
+        <div class="eco-accordion-content">
+          <div class="eco-content-wrapper">
+            <div class="eco-text">
+              <p>Imagina una Colombia con ciudades más limpias y cielos despejados. Al hacer entregas más verdes, como usando bicicletas eléctricas o vehículos sin emisiones, reducimos la huella de carbono y mejoramos la calidad del aire.</p>
+              <ul class="eco-benefits-list">
+                <li>✓ Reducción del smog urbano</li>
+                <li>✓ Menor contaminación sonora</li>
+                <li>✓ Aire más limpio para todos</li>
+              </ul>
+            </div>
+            <div class="eco-image">
+              <img src="img/info-eco1.png" alt="Respira Mejor">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="eco-accordion-item scroll-reveal">
+        <div class="eco-accordion-header">
+          <div class="eco-header-content">
+            <span class="eco-number">02</span>
+            <h4>Eficiencia Verde: Menos Recursos, Más Impacto</h4>
+          </div>
+          <span class="eco-accordion-icon">+</span>
+        </div>
+        <div class="eco-accordion-content">
+          <div class="eco-content-wrapper">
+            <div class="eco-text">
+              <p>Usar vehículos eléctricos o bicicletas de carga, en lugar de camiones convencionales, no solo reduce la contaminación, sino que también mejora la eficiencia en el uso de energía.</p>
+              <ul class="eco-benefits-list">
+                <li>✓ Ahorro en costos operativos</li>
+                <li>✓ Mayor eficiencia energética</li>
+                <li>✓ Reducción de huella de carbono</li>
+              </ul>
+            </div>
+            <div class="eco-image">
+              <img src="img/info-eco2.png" alt="Eficiencia Verde">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="eco-accordion-item scroll-reveal">
+        <div class="eco-accordion-header">
+          <div class="eco-header-content">
+            <span class="eco-number">03</span>
+            <h4>Fomento de la Innovación y Competitividad</h4>
+          </div>
+          <span class="eco-accordion-icon">+</span>
+        </div>
+        <div class="eco-accordion-content">
+          <div class="eco-content-wrapper">
+            <div class="eco-text">
+              <p>Métodos sostenibles en las entregas fomentan la innovación dentro del sector logístico. Esto fortalece la competitividad del país en el mercado global.</p>
+              <ul class="eco-benefits-list">
+                <li>✓ Alineación con tendencias internacionales</li>
+                <li>✓ Nuevas oportunidades empresariales</li>
+                <li>✓ Liderazgo en sostenibilidad</li>
+              </ul>
+            </div>
+            <div class="eco-image">
+              <img src="img/info-eco3.png" alt="Innovación y Competitividad">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="video-section container">
+    <h3 class="section-title scroll-reveal">¡Conoce más de Nosotros!</h3>
+    <div class="video-grid">
+      <div class="video-wrapper scroll-reveal">
+        <video controls poster="img/portada1.png">
+          <source src="video/video1.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </div>
+      <div class="video-wrapper scroll-reveal">
+        <video controls poster="img/portada2.png">
+          <source src="video/video2.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÚSICA -->
+  <section class="music-section container scroll-reveal">
+    <h3 class="section-title">Música Ambiental</h3>
+    <p class="section-subtitle">Relájate con sonidos de la naturaleza</p>
+    <div class="audio-wrapper">
+      <audio controls>
+        <source src="music/musica1.m4a" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </div>
+  </section>
+
+  <!-- BOTÓN SCROLL TO TOP -->
+  <button id="scrollTop" class="scroll-top" title="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- SISTEMA DE NOTIFICACIONES -->
+  <div id="notification" class="notification"></div>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-container">
+      <div class="footer-section footer-main">
+        <img src="img/logo-ecodelibery.png" alt="Eco Delivery Logo" class="footer-logo">
+        <h4>Eco Delivery</h4>
+        <p>La revolución en entregas sostenibles. Transformamos cada envío en una oportunidad para cuidar el planeta.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Menú</h4>
+        <ul>
+          <li><a href="futurosostenible.html">Futuro sostenible</a></li>
+          <li><a href="ecoempresa.html">Eco empresa</a></li>
+          <li><a href="ecoriders.html">Eco riders</a></li>
+          <li><a href="ecoaliados.html">Eco aliados</a></li>
+          <li><a href="#contacto">Contáctanos</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contáctanos</h4>
+        <div class="contact-info">
+          <p><strong><i class="fab fa-whatsapp"></i> WhatsApp:</strong></p>
+          <p><a href="https://wa.me/51903558150" class="contact-link" target="_blank">+51 903 558 150</a></p>
+          <p><strong><i class="fas fa-envelope"></i> Correo:</strong></p>
+          <p><a href="mailto:ecocolombiadelivery@gmail.com?subject=Consulta desde Eco Delivery" class="contact-link">ecocolombiadelivery@gmail.com</a></p>
+        </div>
+      </div>
+      
+      <div class="footer-section footer-social">
+        <h4>Síguenos</h4>
+        <p>Únete a nuestra comunidad verde</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/ecodelivery.bo" aria-label="Facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/ecodelivery.bo/" aria-label="Instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/51903558150" aria-label="WhatsApp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 EcoDelivery. Todos los derechos reservados. | Diseñado con 💚 para un futuro sostenible</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data-loader.js"></script>
+  <script src="jquery-effects.js"></script>
+</body>
+</html>
